@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Hola Mundo</title>
+</head>
+<body>
+<style>
+    body{
+        background-color: black;
+    }
+
+    span{
+        color: blue;
+    }
+</style>
+{% for i in items %}
+    <span>Hola Mundo {{ i }}</span><br/>
+{% endfor %}
+</body>
+</html>
